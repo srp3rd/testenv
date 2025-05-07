@@ -1,3 +1,5 @@
+Files:
+
 - docker-compose-kafka.yml - docker compose file
 - files - directory that gets mounted in the "testenv" container
 - functions.zsh - ZSH functions that are handy to execute in containers
