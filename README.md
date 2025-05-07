@@ -11,18 +11,24 @@ Files:
 
 To start the containers:
 
-$ ./start.sh
+`./start.sh`
 
-
-If you use the "functions.zsh" functions, you can do this, which will log you into a container
-
-$ newsh testenv
-
-Or you can do this, which will execute "commands.sh" within the container
-
-$ newcmd testenv commands.sh
 
 
 To stop the containers:
 
-$ ./stop.sh
+`./stop.sh`
+
+
+If you use the "functions.zsh" functions, you can do this, which will log you into a container
+
+`newsh testenv`
+
+Or you can do this, which will execute "commands.sh" within the container
+
+`newcmd testenv commands.sh`
+
+
+To stop the containers:
+
+`./stop.sh`
